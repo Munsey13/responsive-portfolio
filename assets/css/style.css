@@ -1,6 +1,5 @@
 body {
   width:100%
- 
 }
 
 header {
@@ -36,35 +35,81 @@ footer {
 
 
 
-@media only screen and (max-width: 980px) {
+@media screen and (max-width: 980px) {
 
-body {
-  width: 100%;
-  background-color: wheat;
-
-}
-
-}
-
-@media only screen and (max-width: 768px) {
-
-  body {
-      width: 100%;
-      background-color:red;
+header {
+    background-color: yellow;
   }
 
+h1 {
+  width: 100%;
+  background-color: wheat;
+  text-align: center;
+
+}
+
+h5 {
+  text-align: center;
+  font-family: Arial Narrow;
+}
+
+p {
+  color: green;
+}
+
+label {
+  font-size: 45px;
+
+}
+
+}
+
+@media screen and (max-width: 768px) {
+
+nav {
+  float: left;
+
+}
+
+h1 {
+  text-align: left;
+}
+
+h5 {
+  text-align: left;
+  color: aqua;
+  font-weight: lighter;
+}
+
+p {
+  color: red;
+  font-family: Cambria;
+  
+}
+
+label {
+  font-size: 25px;
+}
   
 }
 
 
+@media screen and (max-width: 640px) {
 
-
-@media only screen and (max-width: 640px) {
-
-      body {
-          width: 100%;
-          background-color: orange;
+    h1 {
+      width: 100%;
+      background-color: orange;
       
-      }
+    }
+    
+    label {
+      font-size: 13px;
+    }
+
+    footer {
+      text-align: left;
+      margin-top: 20%;
+      background-color: navy;
+    }
       
 }
